@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: aquamarine;
+}
+
+.container-principal {
+    position: sticky;
+    z-index: 1;
+  }
+
+.album {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 30px;
+}
+
+.principal {
+  height: 250px;
+  width: 500px;
+  object-fit: scale-down;
+}
+
+.foto-album {
+  height: 200px;
+  width: 200px;
+  object-fit: scale-down;
+}
